@@ -5,7 +5,7 @@ my_pass = "b&H24fs}Pf"
 
 test_email = "tmailtwo02@yahoo.com"
 
-with smtplib.SMTP() as connection:
+with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.starttls()
     connection.login(user=my_email, password=my_pass)
     connection.sendmail(from_addr=my_email,
