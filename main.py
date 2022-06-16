@@ -1,11 +1,11 @@
 import smtplib
 
-my_email = "tmailtwo02@yahoo.com"
-my_pass = "b&H24fs}Pf"
+my_email = "tmailone01@gmail.com"
+my_pass = "rteqejuqqdhcgpzx"
 
-test_email = "tmailone01@gmail.com"
+test_email = "tmailtwo02@yahoo.com"
 
-with smtplib.SMTP("smtp.gmail.com", 465) as connection:
+with smtplib.SMTP("smtp.gmail.com", 587) as connection:
     connection.starttls()
     connection.login(user=my_email, password=my_pass)
     connection.sendmail(from_addr=my_email,
