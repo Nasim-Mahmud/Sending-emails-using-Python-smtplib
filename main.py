@@ -1,9 +1,9 @@
 import smtplib
 
-my_email = "tmailone01@gmail.com"
+my_email = "tmailtwo02@yahoo.com"
 my_pass = "b&H24fs}Pf"
 
-test_email = "tmailtwo02@yahoo.com"
+test_email = "tmailone01@gmail.com"
 
 with smtplib.SMTP("smtp.gmail.com", 465) as connection:
     connection.starttls()
