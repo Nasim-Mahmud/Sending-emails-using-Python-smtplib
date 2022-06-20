@@ -14,4 +14,6 @@ Before testing this project, I would recommend to create two new mail account an
 <ol> Go to Account info --> Account security --> Generate and manage password --> Login again --> Write down the app name and then click generate password. </ol>
 <ol> Copy that password and paste it as the value of <b>my_pass</b> variable.</ol>
 
+It is most important to fill up the sender email, receiver email and sender app very carefully to avoid any errors. Don't use any actual email password for safety purpose.
+
 Happy Coding :D
